@@ -5,6 +5,12 @@ In the current version only the metro lines are available for display. Used are:
 - micropython-ssd1322, a repository from rdagger providing a micropython driver for OLED-displays using the SSD1322 chip
 - An Arduiono Nano ESP32
 - Two monochrome (yellow) [OLED-displays](https://www.mouser.at/ProductDetail/763-3.12-25664UCY2) with a SSD1322 driver IC and a resolution of 265x64 px
+>[!Warning]
+>This project is not finished yet. Files that need to be changed and tested:
+> - [ ] main.py - main file
+> - [ ] DataConversions.py - converts json-data to array of departures
+> - [ ] Monitors.py - displays departures
+
 >[!Note]
 >The code updated to this repository is not the final version. I will update the code as soon as possible to resolve any bugs. 
 ## About this project:
