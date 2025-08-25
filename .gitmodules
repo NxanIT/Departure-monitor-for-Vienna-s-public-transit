@@ -1,6 +1,3 @@
-[submodule "micropython-ssd1322"]
-	path = micropython-ssd1322
-	url = https://github.com/rdagger/micropython-ssd1322.git
 [submodule "micropython_ssd1322"]
 	path = micropython_ssd1322
 	url = https://github.com/rdagger/micropython-ssd1322.git
