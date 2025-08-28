@@ -59,7 +59,9 @@ def check_station_name(name:str, line:str = None):
     if " " in value:
         value = value[:value.index(" ",6)]
     #TODO: check for decoding errors here
-    common_names = ["OBERLAA", "LEOPOLDAU", "KARLSPLATZ", "SEESTADT", "SIMMERING", "OTTAKRING","HÜTTELDORF", "HEILIGENSTADT", "SIEBENHIRTEN", "FLORIDSDORF"]
+    common_names = ["OBERLAA", "LEOPOLDAU", "KARLSPLATZ", "SEESTADT", 
+                    "SIMMERING", "OTTAKRING","HÜTTELDORF", "HEILIGENSTADT", 
+                    "SIEBENHIRTEN", "FLORIDSDORF"]#TODO add intermediate terminal stations u1,u2
     if value in common_names:
         return value
     #TODO: implement more checks when not correct values occur
